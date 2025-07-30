@@ -4,7 +4,7 @@ body {
 }
 #hero img {
     width: 100vw;
-    height: 40%;
+    height: 30vw;
     display: block;
 }
 
@@ -110,13 +110,11 @@ a.active {
     #preventParagraph {
     padding-left: 5rem;
     padding-right: 5rem;
+
 }
-
-    #preventBenefit {
-        padding-left: -5rem;
-        padding-right: -5rem;
-    }
-
-
     
+    .navbar .navbar-nav .nav-link  {
+    position: relative;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
 }
