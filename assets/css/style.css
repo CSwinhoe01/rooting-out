@@ -29,7 +29,7 @@ body {
     padding: 1rem 1.5rem;
     border-radius: 0;
     cursor: pointer;
-    transition: background 0.2s, color 0.2s;
+    transition: background 0.5s, color 0.5s;
     height: 100%;
 }
 
@@ -74,6 +74,18 @@ a.active {
 
 #what-is-prevent p {
     padding: 0 1rem 2rem 1rem 2rem;
+    color: #B3D4E9;
+}
+
+.what-button {
+    background-color:rgba(52, 57, 71, 0.75) !important;
+    border: #d9e3eb !important;
+    font-size: x-large;
+}
+
+#preventParagraph {
+    padding-left: 4rem;
+    padding-right: 4rem;
     color: #B3D4E9;
 }
 
