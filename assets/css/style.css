@@ -4,7 +4,7 @@ body {
 }
 #hero img {
     width: 100vw;
-    height: 15%;
+    height: 40%;
     display: block;
 }
 
@@ -21,11 +21,11 @@ body {
 
 .navbar .navbar-nav .nav-link  {
     position: relative;
-    padding: 0.5rem;
+    padding: 0.5rem 3rem 0.5rem 3rem;
 }
 
 .nav-link {
-    color: #fff;
+    color: #1A293B;
     padding: 1rem 1.5rem;
     border-radius: 0;
     cursor: pointer;
@@ -35,17 +35,18 @@ body {
 
 .nav-link:hover {
     background: #b2b4b4;
-    color: #ffd700;
+    color: #F5C273;
 }
 
 a.active {
-    background: #7f8181;
-    color: #222;
+    background: #8D8F98;
+    color: #fff;
 }
 
 .main-content{
    background-image: url('../images/bg-image-placeholder.png');
    background-size: cover;
+    background-position: center;
    margin-top:-4rem
 }
 
@@ -69,7 +70,9 @@ a.active {
 #what-is-prevent img {
     border-radius: 50%;
     height: 20rem;
-    margin: 6rem 0rem 3rem 0rem;
+    width:20rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 #what-is-prevent p {
@@ -77,21 +80,43 @@ a.active {
     color: #B3D4E9;
 }
 
-.what-button {
+.collapse-button {
     background-color:rgba(52, 57, 71, 0.75) !important;
     border: #d9e3eb !important;
     font-size: x-large;
 }
 
 #preventParagraph {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
     color: #B3D4E9;
 }
 
 @media screen and (max-width: 768px) {
     #what-is-prevent img {
         height: 10rem;
+        width: 10rem;
         margin: 2rem 0rem 0rem 0rem;
     }
+
+    .main-content{
+        background-position: center;
+    }
+
+    #what-is-prevent {
+        padding: 0rem -1.5rem 0rem -1.5rem;
+    }
+
+    #preventParagraph {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+    #preventBenefit {
+        padding-left: -5rem;
+        padding-right: -5rem;
+    }
+
+
+    
 }
