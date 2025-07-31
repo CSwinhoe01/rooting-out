@@ -76,8 +76,28 @@ a.active {
 }
 
 #what-is-prevent p {
-    padding: 0 1rem 2rem 1rem 2rem;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    background-color: rgba(27, 33, 44, 0.884) !important;
+    border-radius: 1rem;
+    height:10rem;
+    width:40rem;
+    justify-content: center;
+}
+
+.info-paragraph {
+    background: rgba(27, 33, 44, 0.88);
     color: #B3D4E9;
+    border-radius: 1rem;
+    padding: 2rem;
+    min-height: 200px;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
 }
 
 .collapse-button {
@@ -86,10 +106,20 @@ a.active {
     font-size: x-large;
 }
 
-#preventParagraph {
-    padding-left: 15rem;
-    padding-right: 15rem;
-    color: #B3D4E9;
+#contact {
+    background-color:#CBCED0;
+    justify-content: center;
+}
+
+#contact h3 {
+padding-top: 2rem;
+}
+
+.row {
+    width:auto !important;
+}
+.location {
+    justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -107,9 +137,8 @@ a.active {
         padding: 0rem -1.5rem 0rem -1.5rem;
     }
 
-    #preventParagraph {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    #what-is-prevent p {
+    border-radius: 1rem;
 
 }
     
