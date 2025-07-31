@@ -90,25 +90,6 @@ a.active {
 }
 
 
-.info-paragraph {
-    background: rgba(27, 33, 44, 0.88);
-    color: #B3D4E9;
-    border-radius: 1rem;
-    padding: 2rem;
-    min-height: 200px;
-    max-width: 600px;
-    width: 100%;
-    margin: 1rem auto;         
-    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
-    display: block;            
-    text-align: center;
-}
-
-.info-paragraph form {
-    width: 100%;
-    margin: 0 auto;
-}
-
 .collapse-button {
     background-color:rgba(52, 57, 71, 0.75) !important;
     border: #d9e3eb !important;
@@ -128,6 +109,13 @@ padding-top: 2rem;
     width:auto !important;
 }
 .location {
+    justify-content: center;
+}
+
+.social-links a {
+    font-size:4rem;
+    color:#1A293B !important;
+    padding-left: 2rem;
     justify-content: center;
 }
 
@@ -152,6 +140,31 @@ padding-top: 2rem;
     min-width: 100px;
     height: 60px;
     font-size: 1.1rem;
+}
+
+/*Risk Assessment Form*/ 
+.info-paragraph {
+    background: rgba(27, 33, 44, 0.88);
+    color: #B3D4E9;
+    border-radius: 1rem;
+    padding: 2rem;
+    min-height: 200px;
+    max-width: 600px;
+    width: 100%;
+    margin: 1rem auto;         
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    display: block;            
+    text-align: center;
+}
+
+.info-paragraph form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#submit {
+    background-color: #F5C273 !important;
+    color: #1A293B;
 }
 
 @media screen and (max-width: 768px) {
