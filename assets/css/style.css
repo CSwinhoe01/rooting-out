@@ -84,6 +84,12 @@ a.active {
     justify-content: center;
 }
 
+#what-is-prevent .row {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+
 .info-paragraph {
     background: rgba(27, 33, 44, 0.88);
     color: #B3D4E9;
@@ -92,17 +98,15 @@ a.active {
     min-height: 200px;
     max-width: 600px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 1rem;
+    margin: 1rem auto;         
     box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    display: block;            
+    text-align: center;
 }
 
 .info-paragraph form {
     width: 100%;
+    margin: 0 auto;
 }
 
 .collapse-button {
@@ -135,13 +139,14 @@ padding-top: 2rem;
     color: #B3D4E9;
     overflow: hidden;
     margin-bottom: 1rem;
+    border-radius: 1rem;
     box-shadow: 0 2px 16px rgba(0,0,0,0.08);
 }
 
 .info-table td, .info-table th {
     background: transparent;
     color: #B3D4E9;
-    border-color: #B3D4E9;
+    border-width: 0;
     vertical-align: middle;
     text-align: center;
     min-width: 100px;
@@ -177,7 +182,6 @@ padding-top: 2rem;
     .info-paragraph {
         padding: 1rem;
         max-width: 98vw;
-        min-width: 0;
         font-size: 1rem;
     }
     .info-paragraph form {
